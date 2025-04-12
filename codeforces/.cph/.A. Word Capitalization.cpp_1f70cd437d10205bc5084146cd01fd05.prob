@@ -1,0 +1,1 @@
+{"name":"Local: A","url":"d:\\code\\Cpp\\codeforces\\A. Word Capitalization.cpp","tests":[{"id":1744489096522,"input":"ApPLe","output":"ApPLe"},{"id":1744489109471,"input":"konjac","output":"Konjac"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\A. Word Capitalization.cpp","group":"local","local":true}
