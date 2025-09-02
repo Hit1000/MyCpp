@@ -1,0 +1,1 @@
+{"name":"Local: 2133A","url":"d:\\code\\Cpp\\codeforces\\800\\2133A. Redstone.cpp","tests":[{"id":1756796025381,"input":"5\n2\n5 5\n4\n6 3 6 9\n2\n2 3\n7\n30 10 12 10 10 9 18\n5\n2 4 8 16 32\n","output":"YES\nYES\nNO\nYES\nNO\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\800\\2133A. Redstone.cpp","group":"local","local":true}
