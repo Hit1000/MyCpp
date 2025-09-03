@@ -24,19 +24,18 @@ const ll LLINF = 1e18;
 
 int main() {
     fastio;
-    
+    int n;
     string s;
-    getline(cin, s);
-
-    int count = 1;
-    for(int i=1; i<s.size(); i++){
-        if(s[i] == s[i-1]) count++;
-        else count = 1;
-        if(count >= 7){
-            cout<<"YES"<<endl;
-            return 0;
-        }
+    cin>>n>>s;
+    int count = 0;
+    for(int i=0; i<n; i++){
+        if(s[i] == 'D') count--;
+        else count++;
     }
-    cout<<"NO"<<endl;
+
+    if(count>0) cout<<"Anton"<<endl;
+    else if(count<0) cout<<"Danik"<<endl;
+    else cout<<"Friendship"<<endl;
+    
     return 0;
 }

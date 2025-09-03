@@ -21,22 +21,21 @@ const int MOD = 1e9 + 7;
 const int INF = 1e9;
 const ll LLINF = 1e18;
 
+int solve(string& s, string& t){
+    int n = s.size(), m = t.size();
+    if(n != m) return 0;
+    for(int i=0; i<n; i++){
+        if(s[i] != t[n-i-1]) return 0;
+    }
+    return 1;
+}
 
 int main() {
     fastio;
     
-    string s;
+    string s,t;
     getline(cin, s);
-
-    int count = 1;
-    for(int i=1; i<s.size(); i++){
-        if(s[i] == s[i-1]) count++;
-        else count = 1;
-        if(count >= 7){
-            cout<<"YES"<<endl;
-            return 0;
-        }
-    }
-    cout<<"NO"<<endl;
+    getline(cin, t);
+    cout<<(solve(s, t)?"YES":"NO")<<endl;
     return 0;
 }
