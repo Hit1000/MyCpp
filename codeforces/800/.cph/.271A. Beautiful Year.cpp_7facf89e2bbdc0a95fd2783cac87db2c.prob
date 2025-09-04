@@ -1,0 +1,1 @@
+{"name":"Local: 271A","url":"d:\\code\\Cpp\\codeforces\\800\\271A. Beautiful Year.cpp","tests":[{"id":1756969848976,"input":"1987\n","output":"2013\n"},{"id":1756969855069,"input":"2013\n","output":"2014\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\800\\271A. Beautiful Year.cpp","group":"local","local":true}
