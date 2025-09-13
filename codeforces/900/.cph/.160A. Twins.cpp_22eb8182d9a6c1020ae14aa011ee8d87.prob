@@ -1,0 +1,1 @@
+{"name":"Local: 160A","url":"d:\\code\\Cpp\\codeforces\\900\\160A. Twins.cpp","tests":[{"id":1757582491646,"input":"2\n3 3\n","output":"2\n"},{"id":1757582499160,"input":"3\n2 1 2\n","output":"2\n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\900\\160A. Twins.cpp","group":"local","local":true}
