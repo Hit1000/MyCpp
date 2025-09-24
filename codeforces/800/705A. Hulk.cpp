@@ -32,6 +32,7 @@ const ll LLINF = 1e18;
 
 
 int main() {
+    
     fastio;
     
     int n;
