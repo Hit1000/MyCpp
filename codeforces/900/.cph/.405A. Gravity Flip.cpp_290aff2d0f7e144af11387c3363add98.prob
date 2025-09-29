@@ -1,0 +1,1 @@
+{"name":"Local: 405A","url":"d:\\code\\Cpp\\codeforces\\900\\405A. Gravity Flip.cpp","tests":[{"id":1759129442395,"input":"4\n3 2 1 2\n","output":"1 2 2 3 \n"},{"id":1759129451015,"input":"3\n2 3 8\n","output":"2 3 8 \n"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\900\\405A. Gravity Flip.cpp","group":"local","local":true}
