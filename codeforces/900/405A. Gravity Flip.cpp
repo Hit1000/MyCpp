@@ -42,8 +42,6 @@ int main() {
         arr[a]++;
     }
 
-
-
     rep(i, 0, 101){
         if(arr[i] > 0){
             cout<<i<<" ";
