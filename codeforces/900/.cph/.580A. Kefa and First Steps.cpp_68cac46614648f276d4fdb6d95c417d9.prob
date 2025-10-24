@@ -1,0 +1,1 @@
+{"name":"Local: 580A","url":"d:\\code\\Cpp\\codeforces\\900\\580A. Kefa and First Steps.cpp","tests":[{"id":1761297044372,"input":"6\n2 2 1 3 4 1\n","output":"3"},{"id":1761297051581,"input":"3\n2 2 9\n","output":"3"}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\code\\Cpp\\codeforces\\900\\580A. Kefa and First Steps.cpp","group":"local","local":true}
