@@ -31,7 +31,24 @@ const int INF = 1e9;
 const ll LLINF = 1e18;
 
 void solve() {
-    
+    int a;
+    cin>>a;
+
+    int n = log10(a)+1;
+    vector<int> v;
+    int count = 0, power = 1;
+    for(int i=0; i<n; i++){
+        int rem = a%10;
+        if(rem != 0){
+            count++;
+            v.pb(rem * power);
+        }
+        a/=10;
+        power*=10;
+    }
+    cout<<count<<endl;
+    for(int i:v) cout<<i<<" ";
+    cout<<endl;
 }
 
 int main() {
